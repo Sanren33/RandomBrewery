@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tap Into Seattle</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container" id="home">
+      <div class="left">
+        <img
+          src="./assets/clinking.gif"
+          alt="Clinking beer"
+          style="width: 80px; height: 80px;"
+        />
+        <h1>Tap Into Seattle</h1>
+        <p>Your random brewery adventure starts here</p>
+        <select id="typeSelect">
+          <option value="">Filter By Type</option>
+          <option value="micro">Micro</option>
+          <option value="brewpub">Brewpub</option>
+          <option value="regional">Regional</option>
+          <option value="planning">Planning</option>
+          <option value="proprietor">Proprietor</option>
+          <option value="large">Large</option>
+        </select>
+        <button id="goBtn">GO</button>
+      </div>
+      <div class="right">
+        <img src="./assets/img/bigfoot.jpeg" alt="Bigfoot with beer" />
+      </div>
+    </div>
+
+    <div class="container hidden" id="result">
+      <div class="left">
+        <h2>Here's your brewery!</h2>
+        <div class="card">
+          <h3 id="breweryName"></h3>
+          <p id="breweryType"></p>
+          <p id="breweryAddress"></p>
+          <iframe id="breweryMap" loading="lazy"></iframe>
+          <div class="buttons">
+            <button id="websiteBtn">Website</button>
+            <button id="directionBtn">Direction</button>
+            <button id="copyBtn">Copy address</button>
+          </div>
+        </div>
+        <div class="actions">
+          <button id="anotherBtn">
+            View another
+            <img
+              src="./assets/clinking.gif"
+              alt="Clinking beer"
+              style="width: 30px; height: 30px;"
+            />
+          </button>
+          <button id="backBtn">Back to filter</button>
+        </div>
+        <p class="note" id="countNote"></p>
+      </div>
+      <div class="right">
+        <img
+          src="./assets/img/bigfoot-drinking.jpeg"
+          alt="Bigfoot drinking beer"
+        />
+      </div>
+    </div>
+  </body>
+</html>
