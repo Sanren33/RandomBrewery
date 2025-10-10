@@ -52,7 +52,7 @@ A simple, responsive web app that helps users discover a random brewery in **Sea
 
 ```
 
-tap-into-seattle/
+brewery/
 │
 ├── index.html      # Main page layout
 ├── style.css       # Styling and layout rules
@@ -68,7 +68,7 @@ tap-into-seattle/
 
 ```
 
-GET [https://api.openbrewerydb.org/v1/breweries?by_city=seattle](https://api.openbrewerydb.org/v1/breweries?by_city=seattle)
+GET https://api.openbrewerydb.org/v1/breweries?by_city=seattle
 
 ```
 
@@ -84,7 +84,7 @@ Example:
 
 ```
 
-[https://api.openbrewerydb.org/v1/breweries?by_city=seattle&by_type=micro](https://api.openbrewerydb.org/v1/breweries?by_city=seattle&by_type=micro)
+GET https://api.openbrewerydb.org/v1/breweries?by_city=seattle&by_type=micro
 
 ```
 
