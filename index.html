@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tap Into Seattle</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,7 +25,7 @@
         <h1>Tap Into Seattle</h1>
         <p>Your random brewery adventure starts here</p>
         <select id="typeSelect">
-          <option value="">Filter By Type</option>
+          <option value="">Filter by type</option>
           <option value="micro">Micro</option>
           <option value="brewpub">Brewpub</option>
           <option value="regional">Regional</option>
@@ -41,9 +42,9 @@
 
     <div class="container hidden" id="result">
       <div class="left">
-        <h2>Here's your brewery!</h2>
+        <h3>Here's your brewery!</h3>
         <div class="card">
-          <h3 id="breweryName"></h3>
+          <h2 id="breweryName"></h2>
           <p id="breweryType"></p>
           <p id="breweryAddress"></p>
           <iframe id="breweryMap" loading="lazy"></iframe>

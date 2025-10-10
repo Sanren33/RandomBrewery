@@ -77,7 +77,6 @@ GET [https://api.openbrewerydb.org/v1/breweries?by_city=seattle](https://api.ope
 ```
 
 by_type=micro | brewpub | regional | planning | proprietor | large
-per_page=50
 
 ```
 

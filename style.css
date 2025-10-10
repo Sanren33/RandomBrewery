@@ -1,8 +1,13 @@
 body {
   margin: 0;
-  font-family: "Alkatra", sans-serif;
+  font-family: "Inter", sans-serif;
   background: #f7f7f7;
   color: #222;
+}
+
+h1,
+h2 {
+  font-family: "Alkatra", sans-serif;
 }
 
 .container {
@@ -57,27 +62,50 @@ button {
   font-size: 1rem;
   padding: 0.6rem 1rem;
   margin: 0.3rem;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  background: #1868a2;
-  color: black;
+  border: 2px solid #1868a2;
+  border-radius: 5px;
+  background: white;
+  color: #1868a2;
   cursor: pointer;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
 }
 
 button:hover {
-  background: #e0e0e0;
+  background: #2d75a7;
+  color: white;
 }
 
 #goBtn {
-  color: white;
+  font-size: 1rem;
   margin-top: 1rem;
   padding: 0.8rem 2rem;
+  border-radius: 5px;
+  background: #1868a2;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+#goBtn:hover {
+  background: #2d75a7;
 }
 
 #backBtn {
   border: none;
   background: none;
   text-decoration: underline;
+  box-shadow: none;
+}
+
+#backBtn:hover {
+  color: #2d75a7;
+}
+
+#anotherBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 .card {
